@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.form-label {
+  font-size: 14px;
+}
+
+form {
+  width: 100%;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+input {
+  padding: 0px 15px;
+  font-size: 18px;
+  background: transparent;
+  color: white;
+  border: 1px solid red;
+}
+
+select {
+  background: transparent;
+  font-size: 16px;
+  border-radius: 5px;
+  color: white;
+}
+
+select {
+  padding: 0px 15px;
+  border: 1px solid transparent;
+  box-shadow: 0px 0px 2px 1px #808080;
+}
+
+select:hover,
+select:focus {
+  border: 1px solid white;
+  outline: none;
+}
+
+.input {
+  border: 1px solid transparent;
+  box-shadow: 0px 0px 2px 1px #808080;
+}
+
+.front,
+.back {
+  backface-visibility: hidden;
+  transform-style: preserve-3d;
+}

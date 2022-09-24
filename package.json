@@ -1,0 +1,36 @@
+{
+  "name": "credit-card-animation",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "main": "src/index.js",
+  "dependencies": {
+    "@chakra-ui/core": "0.4.1",
+    "@chakra-ui/react": "2.3.4",
+    "@emotion/core": "10.0.22",
+    "@emotion/react": "11.10.4",
+    "@emotion/styled": "10.0.23",
+    "emotion-theming": "10.0.19",
+    "framer-motion": "7.3.6",
+    "react": "16.12.0",
+    "react-dom": "16.12.0",
+    "react-icons": "4.4.0",
+    "react-scripts": "3.2.0",
+    "react-spring": "9.0.0-beta.34"
+  },
+  "devDependencies": {
+    "typescript": "3.3.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
